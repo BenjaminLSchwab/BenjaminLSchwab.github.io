@@ -12,62 +12,160 @@
   </head>
   <body>
       <div class="container container-fluid">
-          <!-- NAVBAR -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Ben Schwab</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        
-                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                        
-                        <label class="btn btn-secondary active">
-                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Game Designer
-                        </label>
-                        
-                        <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" autocomplete="off"> Software Developer
-                        </label>
-                        
-                        <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> Professional
-                        </label>
-                        
-                        <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option4" autocomplete="off"> Contact
-                        </label>
-                        
+  <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <a class="navbar-brand text-light" href="#">Ben Schwab</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-primary my-2 px-1" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#games">Game Designer<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#software">Software Developer</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#pro">Professional</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact">Contact Info</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+  <!-- /NAVBAR -->
+          
+  <!-- Game Designer Section -->
+        <div class="container">
+                <h2>Game Designer</h2>
+            
+            
+            <!-- Skills Subsection -->
+            <div class="container">
+                <h3>Skills</h3>
+                <div class="card-group">
+
+                    <div class="card">
+                    <img class="card-img-top my-1" src="img/unity.png" alt="Unity Icon">
+                        <div class="card-body border-top">
+                        <h5 class="card-title">Unity</h5>
+                        <p class="card-text">I have experience with 2D and 3D games in Unity.</p>
+                        </div>
                     </div>
-                        
-                    </ul>
+
+                    <div class="card">
+                    <img class="card-img-top my-1" src="img/unreal.png" alt="Unreal Icon">
+                        <div class="card-body border-top">
+                        <h5 class="card-title">Unreal</h5>
+                        <p class="card-text">I have experience with the Unreal engine, using blueprints as well as C++.</p>
+                        </div>
+                    </div>
+
                 </div>
-            </nav>
-          <!-- /NAVBAR -->
-          
-          <!-- Game Developer Section -->
-            <h2>Game Developer</h2>
-            <!-- Skills Subsection -->
-            <h3>Skills</h3>
+            </div>
             <!-- /Skills Subsection -->
           
             <!-- Portfolio Subsection -->
-            <h3></h3>
+            <div class="container">
+                <h3>Work</h3>
+                
+                <div class="row">
+                    <div class="col-8">
+                        <img src="img/" alt="ScreenShot" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h5>Title of Work</h5>
+                        <p>Description of work.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-8">
+                        <img src="img/" alt="ScreenShot" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h5>Title of Work</h5>
+                        <p>Description of work.</p>
+                    </div>
+                </div>
+                
+            </div>
             <!-- /Portfolio Subsection -->
-          <!-- /Game Developer Section -->
+        </div>
+  <!-- /Game Designer Section -->
           
-          <!-- Software Developer Section -->
-            <!-- Skills Subsection -->
+  <!-- Software Developer Section -->
+      <div class="container">
+          <h2>Software Developer</h2>
+        <!-- Skills Subsection -->
+          <div class="container">
+                <div class="card-group">
 
-            <!-- /Skills Subsection -->
+                    <div class="card">
+                    <img class="card-img-top my-1" src="img/unity.png" alt="Unity Icon">
+                        <div class="card-body border-top">
+                        <h5 class="card-title">Web</h5>
+                        <p class="card-text">I have experience with html, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
 
-            <!-- Portfolio Subsection -->
+                    <div class="card">
+                    <img class="card-img-top my-1" src="img/unreal.png" alt="Unreal Icon">
+                        <div class="card-body border-top">
+                        <h5 class="card-title">C# and .NET</h5>
+                        <p class="card-text">C# using the .NET framework.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                    <img class="card-img-top my-1" src="img/unreal.png" alt="Unreal Icon">
+                        <div class="card-body border-top">
+                        <h5 class="card-title">Database Management</h5>
+                        <p class="card-text">SQL</p>
+                        </div>
+                    </div>
 
-            <!-- /Portfolio Subsection -->
-          <!-- /Software Developer Section -->
+                </div>
+          </div>
+        <!-- /Skills Subsection -->
+
+        <!-- Portfolio Subsection -->
+          <div class="container">
+                <h3>Work</h3>
+                
+                <div class="row">
+                    <div class="col-8">
+                        <img src="img/" alt="ScreenShot" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h5>Title of Work</h5>
+                        <p>Description of work.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-8">
+                        <img src="img/" alt="ScreenShot" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h5>Title of Work</h5>
+                        <p>Description of work.</p>
+                    </div>
+                </div>
+              
+          </div>
+        <!-- /Portfolio Subsection -->
+      </div>
+  <!-- /Software Developer Section -->
           
-          <!-- Professional Section -->
+  <!-- Professional Section -->
             <!-- Skills Subsection -->
 
             <!-- /Skills Subsection -->
@@ -75,12 +173,14 @@
             <!-- Resume Subsection -->
 
             <!-- /Resume Subsection -->
-          <!-- /Professional Section -->
+  <!-- /Professional Section -->
           
-          <!-- Contact Section -->
+  <!-- Contact Section -->
           
-          <!-- /Contact Section -->
+  <!-- /Contact Section -->
       </div>
+      
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
