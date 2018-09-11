@@ -7,18 +7,19 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
-    <title>Hello, world!</title>
+    <title>Ben Schwab</title>
   </head>
   <body>
-      <div class="container container-fluid">
+      <div class="container container-fluid secondColor text-light">
   <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-light firstColor">
             <a class="navbar-brand text-light" href="#">Ben Schwab</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse bg-primary my-2 px-1" id="navbarNav">
+            <div class="collapse navbar-collapse secondColor my-2 px-1" id="navbarNav">
                 <ul class="navbar-nav">
 
                     <li class="nav-item">
@@ -29,9 +30,11 @@
                         <a class="nav-link text-light" href="#software">Software Developer</a>
                     </li>
 
+<!--
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#pro">Professional</a>
                     </li>
+-->
 
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#contact">Contact Info</a>
@@ -43,7 +46,7 @@
   <!-- /NAVBAR -->
           
   <!-- Game Designer Section -->
-        <div class="container">
+        <div class="container" id="games">
                 <h2>Game Designer</h2>
             
             
@@ -54,7 +57,7 @@
 
                     <div class="card">
                     <img class="card-img-top my-1" src="img/unity.png" alt="Unity Icon">
-                        <div class="card-body border-top">
+                        <div class="card-body border-top thirdColor text-light">
                         <h5 class="card-title">Unity</h5>
                         <p class="card-text">I have experience with 2D and 3D games in Unity.</p>
                         </div>
@@ -62,7 +65,7 @@
 
                     <div class="card">
                     <img class="card-img-top my-1" src="img/unreal.png" alt="Unreal Icon">
-                        <div class="card-body border-top">
+                        <div class="card-body border-top thirdColor text-light">
                         <h5 class="card-title">Unreal</h5>
                         <p class="card-text">I have experience with the Unreal engine, using blueprints as well as C++.</p>
                         </div>
@@ -80,19 +83,9 @@
                     <div class="col-8">
                         <img src="img/RollThis.gif" alt="ScreenShots" class="img-fluid">
                     </div>
-                    <div class="col-4">
-                        <h5>Roll This!</h5>
-                        <p>A simple obstacle course game where you play as a marble.</p>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-8">
-                        <img src="img/" alt="ScreenShot" class="img-fluid">
-                    </div>
-                    <div class="col-4">
-                        <h5>Title of Work</h5>
-                        <p>Description of work.</p>
+                    <div class="col-4 thirdColor">
+                        <h4>Roll This!</h4>
+                        <p class="h5">A simple obstacle course game where you play as a marble.</p>
                     </div>
                 </div>
                 
@@ -100,33 +93,33 @@
             <!-- /Portfolio Subsection -->
         </div>
   <!-- /Game Designer Section -->
-          
+        <div class="my-4"></div> 
   <!-- Software Developer Section -->
-      <div class="container">
+      <div class="container" id="software">
           <h2>Software Developer</h2>
         <!-- Skills Subsection -->
           <div class="container">
                 <div class="card-group">
 
                     <div class="card">
-                    <img class="card-img-top my-1" src="img/unity.png" alt="Unity Icon">
-                        <div class="card-body border-top">
+                    <img class="card-img-top my-1" src="img/web.png" alt="web icon">
+                        <div class="card-body border-top thirdColor text-light">
                         <h5 class="card-title">Web</h5>
                         <p class="card-text">I have experience with html, CSS, and JavaScript.</p>
                         </div>
                     </div>
 
                     <div class="card">
-                    <img class="card-img-top my-1" src="img/unreal.png" alt="Unreal Icon">
-                        <div class="card-body border-top">
+                    <img class="card-img-top my-1" src="img/cSharp.png" alt="C# icon">
+                        <div class="card-body border-top thirdColor text-light">
                         <h5 class="card-title">C# and .NET</h5>
                         <p class="card-text">C# using the .NET framework.</p>
                         </div>
                     </div>
                     
                     <div class="card">
-                    <img class="card-img-top my-1" src="img/unreal.png" alt="Unreal Icon">
-                        <div class="card-body border-top">
+                    <img class="card-img-top my-1" src="img/database.png" alt="database icon">
+                        <div class="card-body border-top thirdColor text-light">
                         <h5 class="card-title">Database Management</h5>
                         <p class="card-text">SQL</p>
                         </div>
@@ -135,27 +128,17 @@
                 </div>
           </div>
         <!-- /Skills Subsection -->
-
+        <div class="my-4"></div> 
         <!-- Portfolio Subsection -->
           <div class="container">
                 <h3>Work</h3>
                 
                 <div class="row">
                     <div class="col-8">
-                        <img src="img/" alt="ScreenShot" class="img-fluid">
+                        <img src="https://via.placeholder.com/1000x600" alt="ScreenShot" class="img-fluid">
                     </div>
-                    <div class="col-4">
-                        <h5>Title of Work</h5>
-                        <p>Description of work.</p>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-8">
-                        <img src="img/" alt="ScreenShot" class="img-fluid">
-                    </div>
-                    <div class="col-4">
-                        <h5>Title of Work</h5>
+                    <div class="col-4 thirdColor">
+                        <h5>Placeholder Text</h5>
                         <p>Description of work.</p>
                     </div>
                 </div>
@@ -164,7 +147,7 @@
         <!-- /Portfolio Subsection -->
       </div>
   <!-- /Software Developer Section -->
-          
+        <div class="my-4"></div> 
   <!-- Professional Section -->
             <!-- Skills Subsection -->
 
@@ -176,8 +159,24 @@
   <!-- /Professional Section -->
           
   <!-- Contact Section -->
-          
+          <div class="container" id="contact">
+            <h2>Contact</h2>
+            
+            <div class="thirdColor">
+                <h5>Benjamin.Schwab.nonspam@gmail.com</h5>
+            </div>
+              
+              <div class="thirdColor">
+              <a href="https://github.com/BenjaminLSchwab/"><h5 class="firstText">Github</h5></a>
+              </div>
+              
+              <div class="thirdColor">
+              <a href="www.linkedin.com/in/ben-schwab-3918a1142"><h5 class="firstText">LinkedIn</h5></a>
+              </div>
+              
+          </div>
   <!-- /Contact Section -->
+          <div class="py-4"></div> 
       </div>
       
       
