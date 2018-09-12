@@ -21,3 +21,26 @@
 .fourthText{
     color: #CC7740;
 }
+
+.secondText{
+    color: #7F7D99;
+}
+
+.btn-contact{
+    background-color: #4E40CC;
+    border-color: white;
+}
+
+.btn-contact:hover{
+    background-color: #6AAAFF;
+    border-color: #4E40CC;
+}
+
+
+#email{
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #7F7D99;
+    border: none;
+    width: 92%;
+}

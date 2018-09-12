@@ -159,22 +159,32 @@
   <!-- /Professional Section -->
           
   <!-- Contact Section -->
-          <div class="container" id="contact">
-            <h2>Contact</h2>
-            
-            <div class="thirdColor">
-                <h5>Benjamin.Schwab.nonspam@gmail.com</h5>
-            </div>
-              
-              <div class="thirdColor">
-              <a href="https://github.com/BenjaminLSchwab/"><h5 class="firstText">Github</h5></a>
-              </div>
-              
-              <div class="thirdColor">
-              <a href="https://www.linkedin.com/in/ben-schwab-3918a1142"><h5 class="firstText">LinkedIn</h5></a>
-              </div>
-              
-          </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+
+        <div class="collapse" id="emailSection">
+        <div class="card card-body firstColor mx-auto">
+            <input class="mx-auto text-light" type="text" value="Benjamin.Schwab.nonspam@gmail.com" id="email" disabled>
+            <div class="py-1"></div>
+            <button class="btn btn-primary btn-contact mx-4" onclick="copyEmail()">Copy to Clipboard</button>
+        </div>
+        </div>
+
+        <div class="py-4"></div> 
+
+        <div class="text-center">
+            <button class="btn btn-dark btn-lg btn-contact mx-4" type="button" data-toggle="collapse" data-target="#emailSection" aria-expanded="false" aria-controls="emailSection"><h5>Email</h5></button>
+
+
+
+            <a href="https://github.com/BenjaminLSchwab/" class="btn btn-primary btn-lg btn-contact mx-4"><h5>Github</h5></a>
+
+
+
+            <a href="https://www.linkedin.com/in/ben-schwab-3918a1142" class="btn btn-primary btn-lg btn-contact mx-4"><h5>LinkedIn</h5></a>
+        </div>
+
+    </div>
   <!-- /Contact Section -->
           <div class="py-4"></div> 
       </div>
@@ -185,5 +195,23 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  
+    <script>        
+        
+        function copyEmail() {
+            /* Get the text field */
+            var copyText = document.getElementById("email");
+
+            /* Select the text field */
+            copyText.select();
+
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText.value);
+        }
+    </script>
+      
+    </body>
 </html>
