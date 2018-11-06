@@ -38,11 +38,6 @@
     color: #45a29e;
 }
 
-.card{
-    border-color:#66fcf1;
-    border-width: .15em;
-}
-
 .vibrantBorders{
     border-style: solid;
     border-color:#66fcf1;
@@ -50,14 +45,28 @@
     border-radius: .1em;
 }
 
+.semiVibrantBorders{
+    border-style: solid;
+    border-color:#a1a2a3;
+    border-width: .2em;
+    border-radius: .1em;
+}
+
 .btn-contact{
-    background-color: #4E40CC;
-    border-color: white;
+    color: #1f2833;
+    background-color: #66fcf1;
+    border-color: #66fcf1;
+    margin-top: .3em;
+    margin-bottom: .3em;
 }
 
 .btn-contact:hover{
-    background-color: #6AAAFF;
-    border-color: #4E40CC;
+    background-color: #66fcf1;
+    border-color: #45a29e;
+}
+
+.card{
+    margin: 0;
 }
 
 .navTitle{
@@ -85,3 +94,10 @@ h3{
     color: #66fcf1;
 }
 
+@media (min-width: 320px){
+    img{
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+}
+    
