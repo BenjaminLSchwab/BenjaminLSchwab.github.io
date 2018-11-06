@@ -1,29 +1,53 @@
 .firstColor{
-    background-color: #6AAAFF;
+    background-color: #0b0c10;
 }
 
 .secondColor{
-    background-color: #7F7D99;
+    background-color: #1f2833;
 }
 
 .thirdColor{
-    background-color: #4E40CC;
+    background-color: #c5c6c7;
 }
 
 .fourthColor{
-    background-color: #CC7740;
+    background-color: #66fcf1;
 }
 
-.firstText{
-    color: #6AAAFF;
+.fifthColor {
+    background-color: #45a29e;
 }
 
-.fourthText{
-    color: #CC7740;
+.firstText {
+    color: #0b0c10;
 }
 
-.secondText{
-    color: #7F7D99;
+.secondText {
+    color: #1f2833;
+}
+
+.thirdText {
+    color: #c5c6c7;
+}
+
+.fourthText {
+    color: #66fcf1;
+}
+
+.fifthText {
+    color: #45a29e;
+}
+
+.card{
+    border-color:#66fcf1;
+    border-width: .15em;
+}
+
+.vibrantBorders{
+    border-style: solid;
+    border-color:#66fcf1;
+    border-width: .15em;
+    border-radius: .1em;
 }
 
 .btn-contact{
@@ -36,6 +60,10 @@
     border-color: #4E40CC;
 }
 
+.navTitle{
+    font-size: 2em;
+    font-weight: 700;
+}
 
 #email{
     padding-left: 3px;
@@ -46,5 +74,14 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
 }
+
+h2{
+    color: #45a29e;
+}
+
+h3{
+    color: #66fcf1;
+}
+
