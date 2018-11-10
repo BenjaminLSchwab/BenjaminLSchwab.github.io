@@ -12,8 +12,8 @@
 
     <title>Ben Schwab</title>
   </head>
-  <body class="secondColor">
-      <div class="container container-fluid firstColor text-light vibrantBorders">
+  <body>
+      <div class="container firstColor text-light vibrantBorders">
   <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light secondColor ">
             <span class="fourthText navTitle">Ben Schwab</span>
@@ -24,18 +24,12 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#games">Game Designer<span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <li class="nav-item">
                         <a class="nav-link text-light" href="#software">Software Developer</a>
                     </li>
-
-<!--
+                    
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#pro">Professional</a>
+                        <a class="nav-link text-light" href="#games">Game Designer<span class="sr-only">(current)</span></a>
                     </li>
--->
 
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#contact">Contact Info</a>
@@ -46,64 +40,38 @@
         </nav>
   <!-- /NAVBAR -->
           <br/>
-  <!-- Game Designer Section -->
-        <div class="container" id="games">
-            <h2>Game Designer</h2>
-            <br/>            
-            <!-- Skills Subsection -->
-            <div class="container">
-                
-                <div class="row justify-content-md-center">
-
-                    <div class="col-lg-4 col-sm-12 col-md-6 my-3">
-                        <div class="card semiVibrantBorders">
-                            <img class="card-img-top my-1" src="img/unity.png" alt="Unity Icon">
-                            <div class="card-body border-top secondColor text-light">
-                            <h5 class="card-title">Unity</h5>
-                            <p class="card-text">I have experience with 2D and 3D games in Unity.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-sm-12 col-md-6 my-3">
-                        <div class="card semiVibrantBorders">
-                            <img class="card-img-top my-1" src="img/unreal.png" alt="Unreal Icon">
-                            <div class="card-body border-top secondColor text-light">
-                            <h5 class="card-title">Unreal</h5>
-                            <p class="card-text">I have experience with the Unreal engine, using blueprints as well as C++.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                </div>
-            </div>
-            <!-- /Skills Subsection -->
-            <div class="my-4"></div> 
-            <!-- Portfolio Subsection -->
-            <div class="container">
-                <h3>Work</h3>
-                
-                <div class="row semiVibrantBorders">
-                    <div class="col-md-8 col-sm-12">
-                        <img src="img/RollThis.gif" alt="ScreenShots" class="img-fluid">
-                    </div>
-                    <div class="col-md-4 col-sm-12 secondColor">
-                        <h4>Roll This!</h4>
-                        <p class="h5">A simple obstacle course game for desktop or VR where you play as a marble. This game was made with Unity. </p>
-                    </div>
-                </div>
-                
-            </div>
-            <!-- /Portfolio Subsection -->
-        </div>
-  <!-- /Game Designer Section -->
-        <div class="my-4"></div> 
-  <!-- Software Developer Section -->
+            <!-- Software Developer Section -->
       <div class="container" id="software">
           <h2>Software Developer</h2>
-          <br/>
-        <!-- Skills Subsection -->
+        <div class="my-4"></div> 
+        <!-- Portfolio Subsection -->
+          <div class="container">
+                <h3>Job Placement Dashboard</h3>                            
+                <p>This web application is a tool that helps students coordinate with a job placement director. It uses an Entity Framework code first database.</p>
+                <div class="row semiVibrantBorders">
+                    <div class="col-12 text-center">
+                        <img src="img/networkingView.png" alt="ScreenShot" class="img-fluid">
+                    </div>
+                    <div class="col-12 secondColor">
+                        <h5>Networking Page</h5>
+                        <p>On this page, I implemented a table of data from the database as a partial view. I used Ajax to be able to update the table or sort by different catagories without having to reload the page.</p>
+                    </div>
+                </div>
+              <br/>
+                <div class="row semiVibrantBorders">
+                    <div class="col-12 text-center">
+                        <img src="img/meetupPartial.png" alt="ScreenShot" class="img-fluid">
+                    </div>
+                    <div class="col-12 secondColor">
+                        <h5>Meetups Page</h5>
+                        <p>I designed this partial view to be able to load content from Meetup.com, or from a database of stored meetups. This required some creative solutions because Meetup's API would provide duplicate meetups, or meetups that had already passed, or provide no meetups at all.</p>
+                    </div>
+                </div>
+              
+          </div>
+        <!-- /Portfolio Subsection -->
+                    <br/>
+                  <!-- Skills Subsection -->
           <div class="container">
                 <div class="row justify-content-md-center">
                     
@@ -143,31 +111,65 @@
                 </div>
           </div>
         <!-- /Skills Subsection -->
-        <div class="my-4"></div> 
-        <!-- Portfolio Subsection -->
-          <div class="container">
-                <h3>Work</h3>
-                
-                <div class="row semiVibrantBorders">
-                    <div class="col-12 text-center">
-                        <img src="img/networkingView.png" alt="ScreenShot" class="img-fluid">
-                        <img src="img/meetupPartial.png" alt="ScreenShot" class="img-fluid">
-                    </div>
-                    <div class="col-12 secondColor">
-                        <h4>Job Placement Dashboard</h4>
-                        <p>This web application is a tool that helps students coordinate with a job placement director.
-                            It uses an Entity Framework code first database.
-                            I did some styling work, but my main focus was on back end.
-                            I did a lot of work getting the site to interface with Meetup.com's API.
-                            Another important contribution was improving general readability and cleaning up the code to make it more maintainance friendly.</p>
-                    </div>
-                </div>
-              
-          </div>
-        <!-- /Portfolio Subsection -->
       </div>
   <!-- /Software Developer Section -->
         <div class="my-4"></div> 
+  <!-- Game Designer Section -->
+        <div class="container" id="games">
+            <h2>Game Designer</h2>
+            <br/>            
+            <!-- Portfolio Subsection -->
+            <div class="my-4"></div> 
+            <!-- Portfolio Subsection -->
+            <div class="container">
+                <h3>Work</h3>
+                
+                <div class="row semiVibrantBorders">
+                    <div class="col-md-8 col-sm-12">
+                        <img src="img/RollThis.gif" alt="ScreenShots" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 col-sm-12 secondColor">
+                        <h4>Roll This VR!</h4>
+                        <p class="h5">A simple obstacle course game for desktop or VR where you play as a marble. This game was made with Unity. </p>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- /Portfolio Subsection -->
+            <br/>
+            <!-- Skills Subsection -->
+            <div class="container">
+                
+                <div class="row justify-content-md-center">
+
+                    <div class="col-lg-4 col-sm-12 col-md-6 my-3">
+                        <div class="card semiVibrantBorders">
+                            <img class="card-img-top my-1" src="img/unity.png" alt="Unity Icon">
+                            <div class="card-body border-top secondColor text-light">
+                            <h5 class="card-title">Unity</h5>
+                            <p class="card-text">I have experience with 2D and 3D games in Unity.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-12 col-md-6 my-3">
+                        <div class="card semiVibrantBorders">
+                            <img class="card-img-top my-1" src="img/unreal.png" alt="Unreal Icon">
+                            <div class="card-body border-top secondColor text-light">
+                            <h5 class="card-title">Unreal</h5>
+                            <p class="card-text">I have experience with the Unreal engine, using blueprints as well as C++.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <!-- /Skills Subsection -->
+        </div>
+  <!-- /Game Designer Section -->
+        <div class="my-4"></div> 
+
   <!-- Education Section -->
 
   <!-- /Education Section -->
@@ -207,6 +209,8 @@
     <!--        /FOOTER--> 
       
       </div>
+
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
