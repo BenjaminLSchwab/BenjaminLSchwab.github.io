@@ -15,24 +15,24 @@
   <body>
       <div class="container firstColor text-light vibrantBorders">
   <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light secondColor ">
+        <nav class="navbar navbar-expand-lg navbar-light secondColor py-3">
             <span class="fourthText navTitle">Ben Schwab</span>
             <button class="navbar-toggler fourthColor" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse secondColor fourthText my-2 px-1" id="navbarNav">
+            <div class="collapse  justify-content-end navbar-collapse secondColor fourthText my-2 px-1" id="navbarNav">
                 <ul class="navbar-nav">
 
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#software">Software Developer</a>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light" href="#software"><h5>Software Developer</h5></a>
                     </li>
                     
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#games">Game Designer<span class="sr-only">(current)</span></a>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light" href="#games"><h5>Game Designer</h5><span class="sr-only">(current)</span></a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#contact">Contact Info</a>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light" href="#contact"><h5>Contact Info</h5></a>
                     </li>
 
                 </ul>
@@ -45,7 +45,7 @@
               <div class="row semiVibrantBorders px-1">
                 
                 <p>I really like software development! I have been coding as a hobby since I was in middle school. Most of this work was just simple text adventure games, but I did get a good understanding of programming fundamentals from this time. Whether I’m making games or web applications, I get satisfaction from breaking a large problem into small pieces. I like forming a good team and getting a sense of community in my work environment. The logic puzzle aspect of programming really interests me, along with making code run more smoothly / efficiently. I am a quick study and have picked up quite a few languages / frameworks, so getting familiar with a new codebase is a welcome challenge. I would be an asset to your team!</p>
-              </div>          
+              </div>
           </div>
           <br/>
             <!-- Software Developer Section -->
@@ -55,38 +55,47 @@
                 
               
                 <div class="row semiVibrantBorders">
-                    <h4 class="fifthText px-1">Job Placement Dashboard</h4>                    
+                    <div class=" col-12 text-center">
+                        <h4 class="fifthText px-1">Job Placement Dashboard</h4> 
+                    </div>                                       
                 <p class="px-1">For the last two weeks of my time at the tech academy, I worked with my peers in a team developing a full scale MVC/MVVM Web Application in C#. Working on a legacy codebase was a great learning oppertunity for fixing bugs, cleaning up code, and adding requested features.</p>
                     <a href="https://github.com/BenjaminLSchwab/JobPlacementDashboard" class="btn btn-primary btn-contact mx-4"><h5>Github</h5></a>                    
                
+                    <div class=" col-12 text-center">
                     <h4 class="col-12 secondColor py-1 my-2">Tools Used</h4>
+                    </div>
                     
-                    <div class="col-lg-4 col-sm-12 col-md-6 my-3">                        
-                        <img class="card-img-top my-1" src="img/web.png" alt="web icon">
+                    <div class="row justify-content-center">
+                    
+                        <div class="col-lg-3 col-sm-6 col-md-5 my-3 mx-1">                        
+                            <img class="card-img-top my-1" src="img/web.png" alt="web icon">
                             <div class="card-body border-top secondColor text-light">
-                            <h5 class="card-title">Web</h5>
-                            <p class="card-text">I have experience with html, CSS, and JavaScript. I can use Ajax to change content dynamically without reloading the page.</p>
-                        </div>                        
-                    </div>
-                    
-                    <div class="col-lg-4 col-sm-12 col-md-6 my-3">                        
-                        <img class="card-img-top my-1" src="img/database.png" alt="database icon">
-                        <div class="card-body border-top secondColor text-light">
-                            <h5 class="card-title">Database Management</h5>
-                            <p class="card-text">MySQL, or Entity Framework</p>
+                                <h5 class="card-title">Web</h5>
+                                <p class="card-text">I have experience with html, CSS, and JavaScript. I can use Ajax to change content dynamically without reloading the page.</p>
+                            </div>                        
                         </div>
+
+                        <div class="col-lg-3 col-sm-6 col-md-5 my-3 mx-1">                        
+                            <img class="card-img-top my-1" src="img/database.png" alt="database icon">
+                            <div class="card-body border-top secondColor text-light">
+                                <h5 class="card-title">Database Management</h5>
+                                <p class="card-text">MySQL, or Entity Framework</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 col-md-5 my-3 mx-1">                        
+                            <img class="card-img-top my-1" src="img/cSharp.png" alt="C# icon">
+                            <div class="card-body border-top secondColor text-light">
+                                <h5 class="card-title">C# and .NET</h5>
+                                <p class="card-text">I am familiar with the MVC architecture.</p>
+                            </div>                        
+                        </div>    
+                    
                     </div>
                     
-                    <div class="col-lg-4 col-sm-12 col-md-6 my-3">                        
-                        <img class="card-img-top my-1" src="img/cSharp.png" alt="C# icon">
-                        <div class="card-body border-top secondColor text-light">
-                            <h5 class="card-title">C# and .NET</h5>
-                            <p class="card-text">I am familiar with the MVC architecture.</p>
-                        </div>                        
-                    </div>                                        
                     <div class="my-2"></div> 
                     <div class="col-12 secondColor">
-                        <h5>Networking Page</h5>
+                        <div class=" col-12 text-center"><h5>Networking Page</h5></div>                        
                         <p>On this page, I implemented a table of data from the database as a partial view. I used Ajax to be able to update the table or sort by different catagories without having to reload the page.</p>
                     </div>
                     <div class="col-12 text-center">
@@ -96,7 +105,7 @@
                     </div>
                     <div class="my-2"></div> 
                     <div class="col-12 secondColor">
-                        <h5>Meetups Page</h5>
+                        <div class=" col-12 text-center"><h5>Meetups Page</h5></div>
                         <p>I designed this partial view to be able to load content from Meetup.com, or from a database of stored meetups. This required some creative solutions because Meetup's API would provide duplicate meetups, or meetups that had already passed, or provide no meetups at all.</p>
                     </div>
                     
@@ -123,7 +132,9 @@
                         <img src="img/RollThis.gif" alt="ScreenShots" class="img-fluid">
                     </div>
                     <div class="col-lg-4 col-sm-12 col-md-12 secondColor">
+                        <div class=" col-12 text-center">
                         <h4>Roll This VR!</h4>
+                        </div>
                         <p class="h5">A simple obstacle course game for desktop or VR where you play as a marble.</p>
                         <br/>
                         <h5 class="thirdText">Tools Used</h5>
@@ -139,7 +150,7 @@
         </div>
 
 
-            <h3 class="mx-3">Contact</h3>
+            <h3 class="mx-3" id="contact">Contact</h3>
 
 
             <div class="secondColor mx-auto py-1 semiVibrantBorders">
